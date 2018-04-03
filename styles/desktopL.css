@@ -1,0 +1,47 @@
+@media (min-width:1280px) and (max-width:1366px) {
+  .sections {
+    height: 800px;
+    width: 1280px;
+  }
+
+  .sections {
+    width: 1280px;
+  }
+
+  .sections.left section {
+    left: 80px;
+  }
+
+  .sections.right section {
+    left: 720px;
+  }
+
+
+  #mockup1 {
+    left: 670px;
+    top: 233px;
+    }
+
+  #mockup201 {
+    top: 193px;
+    left: 80px;
+  }
+
+  #mockup202 {
+    top: 193px;
+    left: 253px;
+  }
+
+  #mockup203 {
+    top: 193px;
+    left: 426px;
+  }
+
+  #mockup3 {
+    top: 343px;
+    left: 560px;
+  }
+
+
+
+}

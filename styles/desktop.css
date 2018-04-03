@@ -1,6 +1,6 @@
 body{
   background-color: #fafafa;
-  font-family: 'Pt Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,8 +13,9 @@ body{
   overflow: hidden;
 }
 
-.sections .menubar {
+.menubar {
   display: flex;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
@@ -35,9 +36,10 @@ body{
 }
 
 .sections {
+  display: flex;
   position: relative;
   height: 800px;
-  width: 100%;
+  width: 1180px;
   overflow: hidden;
   background-color: white;
 }
@@ -81,7 +83,7 @@ body{
 
 .sections.center section {
   text-align: center;
-  top: 185px;
+  top: 186px;
   width: 100%;
   color: #FFF;
 }
@@ -134,38 +136,48 @@ body{
   width: 530px;
   height: 1199.86px;
   background-image: url(../images/about.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #mockup201 {
-  top: 194px;
+  top: 193px;
   left: 30px;
   width: 140px;
   height: 316.94px;
   background-image: url(../images/about.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #mockup202 {
-  top: 194px;
+  top: 193px;
   left: 203px;
   width: 140px;
   height: 395.01px;
   background-image: url(../images/works.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #mockup203 {
-  top: 194px;
+  top: 193px;
   left: 376px;
   width: 140px;
   height: 474.44px;
   background-image: url(../images/work.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #mockup3 {
-  top: 345px;
+  top: 343px;
   left: 510px;
   width: 759.56px;
   height: 403px;
   background-image: url(../images/screens.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .FolioPage footer p{
@@ -175,6 +187,5 @@ body{
   bottom: 70px;
   right: 0;
   width: 100%;
-  padding-bottom: 35px;
   text-align: center;
 }

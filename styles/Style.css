@@ -1,2 +1,8 @@
 @import "reset.css";
-@import "1180.css";
+@import "desktop.css";
+@import "mobile.css";
+@import "laptopmini.css";
+@import "laptop.css";
+@import "desktopL.css";
+@import "desktopXL.css";
+@import "mobileL.css";

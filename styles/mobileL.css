@@ -1,0 +1,66 @@
+@media (max-width:839px) {
+  .menubar {
+    height: 42px;
+  }
+
+  .sections {
+    height: 1024px;
+    width: 840px;
+  }
+
+  .sections section {
+    top: 134px;
+  }
+
+  .sections h2 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .sections p{
+    margin-top: 19px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .FolioPage section .line {
+    margin-top: 44px;
+  }
+
+  .sections.left section {
+    left: 150px;
+  }
+
+  .sections.right section {
+    left: 348px;
+  }
+
+  #mockup1 {
+    left: 150px;
+    top: 482px;
+    width: 540px;
+    height: 1222,5px;
+  }
+
+  #mockup201 {
+    top: 456px;
+    left: 175px;
+  }
+
+  #mockup202 {
+    top: 456px;
+    left: 348px;
+  }
+
+  #mockup203 {
+    top: 456px;
+    left: 521px;
+  }
+
+  #mockup3 {
+    top: 506px;
+    left: 122px;
+  }
+
+
+}
